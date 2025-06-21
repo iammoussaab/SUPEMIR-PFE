@@ -1,0 +1,48 @@
+# Unity folders to ignore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# Unity-specific temporary files
+Temp/UnityLockfile
+Temp/workerlic
+Temp/FSTimeGet-*
+
+# Rider/VSCode/Visual Studio/JetBrains
+.vscode/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.booproj
+
+# Project-specific
+*.sln
+.vsconfig
+*.pidb
+
+# Plastic SCM
+.plastic/
+ignore.conf
+
+# Log files (cleaner)
+Logs/
+Logs/*.log
+Logs/shadercompiler-*.log
+Logs/AssetImportWorker*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# XR-specific (optional — mostly auto-regenerated)
+ProjectSettings/XRSettings.asset
