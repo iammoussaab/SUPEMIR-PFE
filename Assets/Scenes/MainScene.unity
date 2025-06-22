@@ -3330,6 +3330,7 @@ GameObject:
   - component: {fileID: 887898651}
   - component: {fileID: 887898653}
   - component: {fileID: 887898652}
+  - component: {fileID: 887898654}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -3364,6 +3365,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba8c1a810b0803b4c9eb93fc813506db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetTag: 
+  OnEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!136 &887898653
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3387,6 +3392,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &887898654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887898650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190bb33553befa0469474b5e36dcf743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &951556929
 PrefabInstance:
   m_ObjectHideFlags: 0
