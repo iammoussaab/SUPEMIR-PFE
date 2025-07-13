@@ -7,6 +7,7 @@ TagManager:
   - Anchor
   - Meteor
   - Energy
+  - Mirror
   layers:
   - Default
   - TransparentFX
