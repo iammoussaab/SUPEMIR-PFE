@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4aa563a87f43499429cd3a22ab25858f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299558
+  packageName: Drag-and-Drop Laser Puzzle Kit
+  packageVersion: 1.0
+  assetPath: Assets/Drag-and-Drop Laser Puzzle Kit/Scripts/Others/SmoothInputRotation.cs
+  uploadId: 750939

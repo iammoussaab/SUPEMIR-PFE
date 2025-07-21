@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f0e52d13a5f776d47b5bacc7faf2a631
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299558
+  packageName: Drag-and-Drop Laser Puzzle Kit
+  packageVersion: 1.0
+  assetPath: Assets/Drag-and-Drop Laser Puzzle Kit/Scripts/SimpleLaser.cs
+  uploadId: 750939

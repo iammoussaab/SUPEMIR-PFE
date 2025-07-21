@@ -1,0 +1,33 @@
+{
+  "name": "com.agostonr.laser-system",
+  "version": "1.0.0",
+  "displayName": "Laser System for Unity",
+  "description": "A complete laser system with logic, scripting API, shaders, textured models, tests and documentation.",
+  "unity": "2020.3",
+  "unityRelease": "20f1",
+  "documentationUrl": "https://github.com/agostonr/Laser-system",
+  "changelogUrl": "https://github.com/agostonr/Laser-system/blob/main/Changelog.md",
+  "dependencies": {
+    "com.unity.ext.nunit": "1.0.6"
+ },
+  "repository": {
+    "url": "https://github.com/agostonr/Laser-system.git",
+    "type": "git",
+    "revision": "b5f673db4bf97331db6f32a76f5772c3a6eba888"
+  },
+ "keywords": [
+    "laser",
+    "lasers",
+    "puzzle",
+    "script",
+    "particle effects",
+    "bundle",
+    "complete",
+    "documented"
+  ],
+  "author": {
+    "name": "Agoston Romhanyi",
+    "email": "amsiamun.dev@gmail.com",
+    "url": "https://www.unity3d.com"
+  }
+}
