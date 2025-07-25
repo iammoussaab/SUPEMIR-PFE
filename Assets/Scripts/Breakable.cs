@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class Breakable : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class Breakable : MonoBehaviour
     public List<GameObject> breakableItems; // List of breakable objects
     public float timeToBreak = 2;
     private float timer = 0;
+    public UnityEvent OnBreak;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +30,7 @@ public class Breakable : MonoBehaviour
                 item.transform.parent = null; // Remove parent to allow free movement
             }
             Debug.Log("Breakable items activated");
+            OnBreak.Invoke(); // Invoke the OnBreak event
             gameObject.SetActive(false);
             } // Optionally deactivate the original object
     }

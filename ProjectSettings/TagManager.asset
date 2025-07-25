@@ -8,6 +8,10 @@ TagManager:
   - Meteor
   - Energy
   - Mirror
+  - LaserTarget
+  - Right Hand
+  - Left Hand
+  - FinishZone
   layers:
   - Default
   - TransparentFX
@@ -16,10 +20,10 @@ TagManager:
   - Water
   - UI
   - Mirror
-  - 
-  - 
-  - 
-  - 
+  - Grabbing
+  - Grabbable
+  - Hand
+  - HandPlayer
   - 
   - 
   - 
